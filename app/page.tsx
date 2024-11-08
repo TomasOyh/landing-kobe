@@ -25,7 +25,7 @@ export default function LandingPage() {
               <Link className="block px-4 py-2 hover:bg-gray-500 rounded-md transition-colors" href="https://x.com/KOBEAssistant" target="_blank" rel="noopener noreferrer">
                 X
               </Link>
-              <Link className="block px-4 py-2 hover:bg-gray-500 rounded-md transition-colors" href="https://github.com/vquartaitba/KOBE-Solana" target="_blank" rel="noopener noreferrer">
+              <Link className="block px-4 py-2 hover:bg-gray-500 rounded-md transition-colors" href="https://github.com/vquartaitba/KOBE-Arbitrum" target="_blank" rel="noopener noreferrer">
                 GitHub
               </Link>
             </div>
@@ -50,7 +50,7 @@ export default function LandingPage() {
         <section className="container mx-auto px-4 py-20 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">Your intelligent ally in the Web3 world</h1>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-            The all-in-one AI-Powered solution to simplify smart contract development on Solana
+            The all-in-one AI-Powered solution to simplify smart contract development on Arbitrum
           </p>
         </section>
 
@@ -58,9 +58,9 @@ export default function LandingPage() {
           <h2 className="text-3xl md:text-4xl font-bold mb-12">From imagination to implementation</h2>
           <div className="grid md:grid-cols-2 gap-8">
             {[
-              { title: "Smart Contract Generation", icon: Zap, description: "Automatically create Solana-compatible contracts using advanced AI" },
+              { title: "Smart Contract Generation", icon: Zap, description: "Automatically create Arbitrum-compatible contracts using advanced AI" },
               { title: "Testing and Validation", icon: Shield, description: "Ensure your contracts are valid and error-free before deployment" },
-              { title: "Compilation and Deployment", icon: Globe, description: "Directly compile and deploy contracts to the Solana blockchain" },
+              { title: "Compilation and Deployment", icon: Globe, description: "Directly compile and deploy contracts to the Arbitrum blockchain" },
               { title: "Real-Time Blockchain Info", icon: Layers, description: "Access up-to-date blockchain data with Retrieval-Augmented Generation (RAG)" },
             ].map((feature, index) => (
               <Card key={index} className="bg-gray-800 bg-opacity-50 border-none transform transition-transform hover:scale-105">
@@ -115,7 +115,7 @@ export default function LandingPage() {
 
         <section className="container mx-auto px-4 py-20 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Ready to transform your Solana development workflow?
+            Ready to transform your Arbitrum development workflow?
           </h2>
           <p className="text-xl mb-8">
             Join our waiting list and be the first to experience the power of AI-driven blockchain development.
